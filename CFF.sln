@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cyberdex", "Cyberdex", "{5ABFD16E-E031-4DDD-A802-ED9861B124F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DexUtils", "Pokedex\DexUtils\DexUtils.csproj", "{7B000154-8A14-4162-8F53-ABC270592E6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DexUtils.Test", "DexUtils.Test\DexUtils.Test.csproj", "{F3EE48D6-1369-427A-870C-4AAD195CFC92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DexModels", "Pokedex\DexModels\DexModels.csproj", "{3D04715A-7D91-493C-847F-4F2A24A623B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B000154-8A14-4162-8F53-ABC270592E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B000154-8A14-4162-8F53-ABC270592E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B000154-8A14-4162-8F53-ABC270592E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B000154-8A14-4162-8F53-ABC270592E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3EE48D6-1369-427A-870C-4AAD195CFC92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3EE48D6-1369-427A-870C-4AAD195CFC92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3EE48D6-1369-427A-870C-4AAD195CFC92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3EE48D6-1369-427A-870C-4AAD195CFC92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D04715A-7D91-493C-847F-4F2A24A623B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D04715A-7D91-493C-847F-4F2A24A623B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D04715A-7D91-493C-847F-4F2A24A623B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D04715A-7D91-493C-847F-4F2A24A623B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7B000154-8A14-4162-8F53-ABC270592E6C} = {5ABFD16E-E031-4DDD-A802-ED9861B124F4}
+		{F3EE48D6-1369-427A-870C-4AAD195CFC92} = {5ABFD16E-E031-4DDD-A802-ED9861B124F4}
+		{3D04715A-7D91-493C-847F-4F2A24A623B8} = {5ABFD16E-E031-4DDD-A802-ED9861B124F4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E89F4B10-09DA-460F-9F94-288157B2DC3E}
+	EndGlobalSection
+EndGlobal
